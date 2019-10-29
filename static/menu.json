@@ -1,0 +1,366 @@
+[
+    {
+        "class": "el-icon-menu",
+        "count": 1,
+        "parentId": null,
+        "path": "/tdf-cloud-oauth2-server",
+        "component": "Layout",
+        "hidden": false,
+        "alwaysShow": true,
+        "name": "db3856bf36d243efb41a516dbccd24b5",
+        "meta": {
+            "index": "1",
+            "roles": [],
+            "title": "安全管理",
+            "icon": "eye",
+            "cacheAble": false
+        },
+        "children": [
+            {
+                "count": 11,
+                "parentId": "db3856bf36d243efb41a516dbccd24b5",
+                "path": "测试.pdf",
+                "component": "oauth-management/roleGateways/main",
+                "hidden": false,
+                "alwaysShow": true,
+                "name": "1da4a84805f44cdd8fc3d6d274717947",
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "网关授权",
+                    "icon": "eye",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "1da4a84805f44cdd8fc3d6d274717947"
+            },
+            {
+                "count": 12,
+                "parentId": "db3856bf36d243efb41a516dbccd24b5",
+                "path": "null",
+                "component": "oauth-management/accessTokens/main",
+                "hidden": false,
+                "alwaysShow": true,
+                "name": "f55a23b6c03a4795ac503078b5a77b3b",
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "Token管理",
+                    "icon": "dept",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "f55a23b6c03a4795ac503078b5a77b3b"
+            },
+            {
+                "count": 13,
+                "parentId": "db3856bf36d243efb41a516dbccd24b5",
+                "path": "null",
+                "component": "oauth-management/roleClients/main",
+                "hidden": false,
+                "alwaysShow": true,
+                "name": "44c197a270994a78bc2ed9850679bdc6",
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "应用授权",
+                    "icon": "auth-menu",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "44c197a270994a78bc2ed9850679bdc6"
+            },
+            {
+                "count": 14,
+                "parentId": "db3856bf36d243efb41a516dbccd24b5",
+                "path": "http://enn-oauth2-fnw-dev.topaas.enncloud.cn/uaa/#",
+                "pathold": "oauth",
+                "component": "oauth-management/oauthClient/main",
+                "hidden": false,
+                "alwaysShow": true,
+                "name": "ed72ad6448bc42b7a98318c8ca5cc7e1",
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "应用管理",
+                    "icon": "dept",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "ed72ad6448bc42b7a98318c8ca5cc7e1"
+            }
+        ],
+        "id": "db3856bf36d243efb41a516dbccd24b5"
+    },
+    {
+        "class": "el-icon-s-data",
+        "count": 2,
+        "parentId": null,
+        "path": "/tdf-service-route",
+        "component": "Layout",
+        "hidden": false,
+        "alwaysShow": true,
+        "name": "b4e684473f904c699d8ad461cb2da0b3",
+        "meta": {
+            "index": "1",
+            "roles": [],
+            "title": "服务治理",
+            "icon": "dept",
+            "cacheAble": false
+        },
+        "children": [
+            {
+                "count": 21,
+                "parentId": null,
+                "path": "http://eureka-server-fnw-dev.topaas.enncloud.cn/",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "服务注册",
+                    "icon": "setting",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "c8aaddde9c29499fb556a78c93937022"
+            },
+            {
+                "count": 22,
+                "parentId": "b4e684473f904c699d8ad461cb2da0b3",
+                "path": "use",
+                "component": "route-management/route-controller/main",
+                "hidden": false,
+                "alwaysShow": true,
+                "name": "ecda73f7a78d43ef908df477909d3c08",
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "服务管理",
+                    "icon": "dept",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "ecda73f7a78d43ef908df477909d3c08"
+            },
+            {
+                "count": 23,
+                "parentId": null,
+                "path": "http://model-api-fnw-dev.topaas.enncloud.cn/doc.html",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "API管理",
+                    "icon": "auth-menu",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "87415395bed14d34889bc1bed238009d"
+            }
+        ],
+        "id": "b4e684473f904c699d8ad461cb2da0b3"
+    },
+    {
+        "class": "el-icon-s-opportunity",
+        "count": 3,
+        "parentId": null,
+        "path": "/tdf-service-route",
+        "component": "Layout",
+        "hidden": false,
+        "alwaysShow": true,
+        "name": "7d3d11fe288143b2a324bb289ed4ecdf",
+        "meta": {
+            "index": "1",
+            "roles": [],
+            "title": "监控中心",
+            "icon": "check",
+            "cacheAble": false
+        },
+        "children": [
+            {
+                "count": 31,
+                "parentId": null,
+                "path": "http://zipkin-server-fnw-dev.topaas.enncloud.cn/zipkin/",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "服务链路跟踪(zipkin)",
+                    "icon": "check",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "a3e183a392044207a15ab2762be5afb3"
+            },
+            {
+                "count": 32,
+                "parentId": null,
+                "path": "http://10.39.46.61:8585",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "缓存监控(Redis)",
+                    "icon": "eye",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "00c608092ec94dac9b2016059110d45b"
+            },
+            {
+                "count": 33,
+                "parentId": null,
+                "path": "http://hystrix-dashboard-fnw-test.topaas.enncloud.cn/hystrix",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "熔断监控(Dashboard)",
+                    "icon": "check",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "2ea67a7cd670472c8cecca31226ff127"
+            },
+            {
+                "count": 34,
+                "parentId": null,
+                "path": "http://192.168.70.40:5601/",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "日志监控（ELK）",
+                    "icon": "eye",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "330026ed239848ea9f9c9ec4efae6f6d"
+            },
+            {
+                "count": 35,
+                "parentId": null,
+                "path": "http://ennboss-provider-admin-fnw-test.topaas.enncloud.cn/login.html",
+                "component": null,
+                "hidden": null,
+                "alwaysShow": null,
+                "name": null,
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "服务监控(admin)",
+                    "icon": "dictionary-type",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "0cba5e560b9148c2bd6d677aac8911c3",
+                "selected": true
+            },
+            {
+                "count": "36",
+                "path": "http://10.39.46.53:28080/index.html",
+                "meta": {
+                    "title": "链路追踪(PINPOINT)"
+                },
+                "children": null
+            }
+        ],
+        "id": "7d3d11fe288143b2a324bb289ed4ecdf"
+    },
+    {
+        "class": "el-icon-s-custom",
+        "count": "4",
+        "path": "/quanxian",
+        "meta": {
+            "title": "权限管理"
+        },
+        "children": [
+            {
+                "count": "42",
+                "path": "user",
+                "meta": {
+                    "title": "用户"
+                },
+                "children": null
+            },
+            {
+                "count": "43",
+                "path": "limited",
+                "meta": {
+                    "title": "角色"
+                },
+                "children": null
+            },
+            {
+                "count": "44",
+                "path": "Rolelimited",
+                "meta": {
+                    "title": "角色权限"
+                },
+                "children": null
+            }
+        ]
+    },
+    {
+        "class": "el-icon-s-help",
+        "count": "5",
+        "path": "/help",
+        "meta": {
+            "title": "帮助中心"
+        },
+        "children": [
+            {
+                "count": 51,
+                "parentId": "db3856bf36d243efb41a516dbccd24b5",
+                "path": "readme.md",
+                "component": "oauth-management/roleGateways/main",
+                "hidden": false,
+                "alwaysShow": true,
+                "name": "1da4a84805f44cdd8fc3d6d274717947",
+                "meta": {
+                    "index": "1",
+                    "roles": [],
+                    "title": "编码规范",
+                    "icon": "eye",
+                    "cacheAble": false
+                },
+                "children": null,
+                "id": "1da4a84805f44cdd8fc3d6d284717948"
+            },
+            {
+                "count": "52",
+                "path": "SpringCloud.md",
+                "meta": {
+                    "title": "SpringCloud"
+                },
+                "children": null
+            },
+            {
+                "count": "53",
+                "path": "Microservice.pdf",
+                "meta": {
+                    "title": "Eureka"
+                },
+                "children": null
+            }
+        ]
+    }
+]
